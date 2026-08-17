@@ -6,7 +6,7 @@
 <title>Uma Aventura em Vancouver, Cecílio de Almeida</title>
 <meta name="description" content="A saga em três volumes de Cecílio de Almeida: Uma Aventura em Vancouver, As Cicatrizes que Não se Veem, e Ambição e Silêncio.">
 <!-- SUBSTITUIR pelo domínio final assim que fizeres o deploy na Vercel -->
-<link rel="canonical" href="https://SUBSTITUIR-PELO-TEU-DOMINIO.vercel.app/">
+<link rel="canonical" href="https://uma-aventura-em-vancouver-landing-p.vercel.app/">
 
 <!-- Open Graph / partilha em WhatsApp, Facebook, Instagram -->
 <meta property="og:type" content="book">
@@ -16,11 +16,11 @@
 <meta property="og:site_name" content="Uma Aventura em Vancouver">
 <!-- NOTA: og:image precisa de um URL público (não funciona com imagem embutida em base64).
      Substitui o conteúdo abaixo por um link direto para uma imagem tua alojada online (ex: 1200x630px). -->
-<meta property="og:image" content="https://SUBSTITUIR-PELO-TEU-DOMINIO/capa-partilha.jpg">
+<meta property="og:image" content="https://uma-aventura-em-vancouver-landing-p.vercel.app/capa-partilha.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Uma Aventura em Vancouver, Cecílio de Almeida">
 <meta name="twitter:description" content="Manuel e Helena. Uma família construída entre segredos, e o preço real de a manter de pé.">
-<meta name="twitter:image" content="https://SUBSTITUIR-PELO-TEU-DOMINIO/capa-partilha.jpg">
+<meta name="twitter:image" content="https://uma-aventura-em-vancouver-landing-p.vercel.app/capa-partilha.jpg">
 
 <!-- Schema.org: ajuda o Google a mostrar informação rica (autor, obra) -->
 <script type="application/ld+json">
@@ -230,6 +230,10 @@
     object-fit:contain; object-position:center;
     padding:11%; box-sizing:border-box;
   }
+  /* A imagem do Volume I é a capa isolada (preenche quase todo o frame);
+     a do Volume II é um mockup com bastante espaço à volta. Padding maior
+     aqui equilibra o tamanho visual entre as duas. */
+  #volume-1 .art-image{padding:30%;}
   #volume-1 .art{background:#E9CE8F;}
   #volume-2 .art{background:#1B140E;}
   .volume .art::after{

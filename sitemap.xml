@@ -2,7 +2,7 @@
 <!-- SUBSTITUIR "SUBSTITUIR-PELO-TEU-DOMINIO" pelo domínio final da Vercel assim que o tiveres -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://SUBSTITUIR-PELO-TEU-DOMINIO.vercel.app/</loc>
+    <loc>https://uma-aventura-em-vancouver-landing-p.vercel.app/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>

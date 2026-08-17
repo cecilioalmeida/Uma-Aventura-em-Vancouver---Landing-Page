@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://SUBSTITUIR-PELO-TEU-DOMINIO.vercel.app/sitemap.xml
+Sitemap: https://uma-aventura-em-vancouver-landing-p.vercel.app/sitemap.xml
