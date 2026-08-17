@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://SUBSTITUIR-PELO-TEU-DOMINIO.vercel.app/sitemap.xml
